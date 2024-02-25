@@ -68,7 +68,6 @@ ol {
 }
 
 .search-form__fieldset {
-  margin-bottom: -1px;
   border: none;
 }
 
@@ -234,6 +233,10 @@ ol {
   outline: 1px solid rgb(255, 255, 255);
 }
 
+.content__card-link_current {
+  background-color: rgb(84, 80, 80);
+}
+
 .content__card-link:focus {
   outline: none;
 }
@@ -276,6 +279,7 @@ ol {
   line-height: 100%;
   text-transform: uppercase;
   text-overflow: ellipsis;
+  margin-bottom: 6px;
 }
 
 .content__video-card-description {
